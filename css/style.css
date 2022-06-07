@@ -634,6 +634,12 @@ header {
     color: #393b7f;
 }
 
+.img-dev{
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+}
+
 @media (max-width:991px) {
     .social-icons {
         text-align: center;
