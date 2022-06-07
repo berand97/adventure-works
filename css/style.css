@@ -37,12 +37,12 @@ body {
 }
 
 a {
-    color: #e38cb7;
+    color: #393b7f;
 }
 
 a:hover,
 a:focus {
-    color: #d6619c;
+    color: #393b7f;
 }
 
 h1 {
@@ -55,13 +55,13 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: 300;
-    color: #633991;
+    color: #393b7f;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #633991;
+    color: #393b7f;
     font-size: 33px;
     font-weight: 500;
 }
@@ -69,13 +69,13 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #633991;
+    color: #393b7f;
 }
 
 h5 {
     font-size: 28px;
     font-weight: 300;
-    color: #633991;
+    color: #393b7f;
     margin-bottom: 0.7rem;
 }
 
@@ -84,12 +84,12 @@ p {
 }
 
 p.lead {
-    color: #e38cb7;
+    color: #393b7f;
     margin-bottom: 2rem;
 }
 
 .text-primary {
-    color: #e38cb7 !important;
+    color: #393b7f !important;
 }
 
 .light-font {
@@ -105,15 +105,15 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #d6619c;
+    color: #393b7f;
 }
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    background-image: -moz-linear-gradient( 122deg, #393b7f 0%, #393b7fa7 100%);
+    background-image: -webkit-linear-gradient( 122deg, #393b7f 0%, #393b7fa7 100%);
+    background-image: -ms-linear-gradient( 122deg, #393b7f 0%, #393b7fa7 100%);
+    background-image: linear-gradient( 122deg, #393b7f 0%, #393b7fa7 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -126,7 +126,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #fd378e 0%, #e54595 100%);
+    background-image: linear-gradient( 122deg, #393b7fa7 0%, #393b7f 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
@@ -137,7 +137,7 @@ p.lead {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 500;
-    color: #633991;
+    color: #393b7f;
     margin: 0.5rem;
     padding: 0.7rem 1.6rem;
     line-height: 1.8;
@@ -150,7 +150,7 @@ p.lead {
 }
 
 .light-bg {
-    background-color: #faf6fb;
+    background-color: #ffff;
 }
 
 .section {
@@ -163,7 +163,7 @@ p.lead {
 }
 
 .section-title small {
-    color: #998a9b;
+    color: #ffff;
 }
 
 @media (max-width:767px) {
@@ -187,9 +187,9 @@ p.lead {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: rgb(74, 13, 143);
-    background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgba(42, 56, 250, 0.771) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgba(42, 56, 250, 0.771) 100%);
+    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgba(42, 56, 250, 0.771) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -211,7 +211,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #cd99d4;
+        border-bottom: 2px solid #9c99d4ce;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -240,16 +240,16 @@ header {
 }
 
 .bg-gradient {
-    background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(42, 56, 250, 0.771) 100%);
+    background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(42, 56, 250, 0.771) 100%);
+    background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(42, 56, 250, 0.771) 100%);
+    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(42, 56, 250, 0.771) 100%);
 }
 
 .tagline {
     font-size: 23px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #ffff;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -280,10 +280,10 @@ header {
 ----------------------*/
 
 .gradient-fill:before {
-    color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    color: #3f4bcbe4;
+    background: -moz-linear-gradient(top, #3d1acbdf 0%, #3f4bcbe4 100%);
+    background: -webkit-linear-gradient(top, #3d1acbdf 0%, #3f4bcbe4 100%);
+    background: linear-gradient(to bottom, #3d1acbdf 0%, #3f4bcbe4 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -309,10 +309,10 @@ header {
     content: "";
     position: absolute;
     width: 3px;
-    color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    color: #3f4bcbe4;
+    background: -moz-linear-gradient(top, #3d1acbdf 0%, #3f4bcbe4 100%);
+    background: -webkit-linear-gradient(top, #3d1acbdf 0%, #3f4bcbe4 100%);
+    background: linear-gradient(to bottom, #3d1acbdf 0%, #3f4bcbe4 100%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -435,7 +435,7 @@ header {
     background: #FFF;
     border-top-width: 3px;
     border-color: #ce75b4 #faf6fb #FFF;
-    color: #633991;
+    color: #393b7f;
 }
 
 
@@ -537,7 +537,7 @@ header {
     border-top-width: 3px;
     border-color: #ce75b4 #faf6fb #FFF;
     box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
-    color: #633991;
+    color: #393b7f;
 }
 
 .card.pricing .card-head {
@@ -549,7 +549,7 @@ header {
     display: block;
     font-size: 45px;
     font-weight: 300;
-    color: #633991;
+    color: #393b7f;
 }
 
 .card.pricing .card-head .price sub {
@@ -597,7 +597,7 @@ header {
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #ffff;
     max-width: 650px;
     margin: 0 auto;
 }
@@ -631,7 +631,7 @@ header {
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #e38cb7;
+    color: #393b7f;
 }
 
 @media (max-width:991px) {
